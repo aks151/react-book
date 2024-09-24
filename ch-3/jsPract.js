@@ -184,14 +184,20 @@ const hashColors = colors.reduce((hash, { id, title, rating }) => {
 const colors1 = ["red", "red", "green", "blue", "green"];
 
 
-const colors1uniqueObj = colors1.reduce((arr, ele) => {
+const colors1uniqueObj = colors1.reduce((arr, ele) => { 
+    // this element was not coming right, how to deal with this, 
+
+    console.log("understanding array.reduce, ele: ", ele)
+
     if(!arr.includes(ele)) {
         arr.push(ele);
     }
+
+    console.log("printing arr after every iteration, arr: ", arr)
     return arr;
 }, [])
 
-console.log("unique ele array: ", Object.keys(colors1uniqueObj))
+console.log("unique ele array: ", colors1uniqueObj)
 
 
 
