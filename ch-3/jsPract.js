@@ -169,7 +169,31 @@ const colorHash = colors.reduce((clrHash,  {id, title, rating}) => {
 
 
 console.log("colourHash: ", colorHash)
+
+
+
+
+const hashColors = colors.reduce((hash, { id, title, rating }) => {
+    hash[id] = { title, rating };
+ return hash;
+}, {});
    
+
+
+//reduce array with multiple occurences to unique occurences.
+const colors1 = ["red", "red", "green", "blue", "green"];
+
+
+const colors1uniqueObj = colors1.reduce((arr, ele) => {
+    if(!arr.includes(ele)) {
+        arr.push(ele);
+    }
+    return arr;
+}, [])
+
+console.log("unique ele array: ", Object.keys(colors1uniqueObj))
+
+
 
    
 
