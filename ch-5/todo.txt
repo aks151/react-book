@@ -1,0 +1,6 @@
+When we pass the array of ingredients to this component, we need to surround it
+with curly braces. This is called a JavaScript expression, and we must use these when
+passing JavaScript values to components as properties. Component properties will
+take two types: either a string or a JavaScript expression. JavaScript expressions can
+include arrays, objects, and even functions. In order to include them, you must sur‐
+round them in curly braces.

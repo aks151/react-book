@@ -1,0 +1,13 @@
+1. AJAX - asynchrounous javascript and xml
+2. AJAX lead to the development of single page application
+3. React is a library that’s designed to update the browser DOM for us. We no longer
+have to be concerned with the complexities associated with building high-performing
+SPAs because React can do that for us. With React, we do not interact with the DOM
+API directly. Instead, we provide instructions for what we want React to build, and
+React will take care of rendering and reconciling the elements we’ve instructed it to
+create.
+
+4. i only knew react starting from creat-react-application or vite, and then it gives this file/that file, 
+and then you start building applications and thats it, now i am understanding how things are actuall done bc
+
+5. 
